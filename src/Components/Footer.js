@@ -22,6 +22,7 @@ const Footer = () => {
             href= {soclink.href}
             target='_blank'
             className='footer-icon'
+             rel="noreferrer"
           >
             <i className= {soclink.icon}></i>
           </a>
