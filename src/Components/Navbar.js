@@ -29,7 +29,7 @@ const Navbar = () => {
           {SocialLinks.map((socLink) => {
             return (
               <li key={socLink.id}>
-                <a href={socLink.href} target='_blank' className='nav-icon'>
+                <a href={socLink.href} target='_blank' rel="noreferrer" className='nav-icon'>
                   <i className={socLink.icon}></i>
                 </a>
               </li>
